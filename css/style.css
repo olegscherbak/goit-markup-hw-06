@@ -867,7 +867,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-checkbox:focus + .checkbox-policy::before {
-  border: 3px solid var(--head-color);
+  border: 2px solid var(--head-color);
 }
 .checkbox-policy {
   position: relative;
