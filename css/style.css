@@ -775,6 +775,8 @@ address {
   font-size: 12px;
   letter-spacing: 0.01em;
   color: #757575;
+}
+.modal-form-item:not(:last-child) {
   margin-bottom: 10px;
 }
 .modal-form {
@@ -867,7 +869,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-checkbox:focus + .checkbox-policy::before {
-  border: 2px solid var(--head-color);
+  border: 2px solid var(--accent-color);
 }
 .checkbox-policy {
   position: relative;
